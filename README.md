@@ -19,16 +19,16 @@ The ability to identify bird families through their calls is vital for ecologica
 
 This repository contains several Jupyter notebooks that document our project workflow:
 
-1. **EDA and Basic Analysis.ipynb**
+1. **EDA_and_Basic_Analysis.ipynb**
    - This notebook includes exploratory data analysis and basic statistical analysis of the bird sound dataset.
 
-2. **Preprocessing on VM.ipynb**
+2. **Preprocessing_on_VM.ipynb**
    - Conducted on a server/VM for enhanced memory and compute power, this notebook details the preprocessing steps and the downloading of audio files for the top 10 most common bird species.
 
-3. **Model Training and Evaluation.ipynb**
+3. **Model_Training_and_Evaluation.ipynb**
    - This notebook contains the implementation of our machine learning model, analysis of the results, and the conclusions drawn from our study.
 
-4. **Transfer Learning with WAV2VEC2.0.ipynb** (Optional)
+4. **Transfer_Learning_with_WAV2VEC2.0.ipynb** (Optional)
    - An exploration of transfer learning using the WAV2VEC2.0 model. This was not used in the final project as our primary model achieved satisfactory performance and the processing time with WAV2VEC2.0 was significantly higher.
 
 ## **Usage**
