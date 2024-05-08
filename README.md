@@ -9,7 +9,7 @@
 
 ## **Problem Statement**
 
-Our project aims to develop a machine learning model capable of accurately classifying bird sounds based on their spectrograms. We utilize audio data and potentially geographical data to build a robust model for identifying bird families from their sounds and associated visual information. This tool is crucial for biodiversity monitoring and conservation efforts, helping in the automated identification of bird species from their vocalizations.
+Our project aims to develop a machine-learning model capable of accurately classifying bird sounds based on their spectrograms. We utilize audio data and potentially geographical data to build a robust model for identifying bird families from their sounds and associated visual information. This tool is crucial for biodiversity monitoring and conservation efforts, helping in the automated identification of bird species from their vocalizations.
 
 ## **Significance of the Project**
 
@@ -24,7 +24,7 @@ This repository contains several Jupyter notebooks that document our project wor
 
 2. **Preprocessing_on_VM.py**
    - Conducted on a server/VM for enhanced memory and compute power, this script details the preprocessing steps and the downloading of audio files for the top 10 most common bird species.
-   - This script downloads the top species "call" type mp3 data from our dataset, rids the samples of silent/noise to only contain actual information (in this case bird sounds), then it divides the "clean" sound samples into 10-second portions, normalizes the amplitude of these samples, and finally converts them into a spectrogram for the model notebook to later model accordingly.
+   - This script downloads the top species's "call" type mp3 data from our dataset, rids the samples of silence/noise to only contain actual information (in this case bird sounds), then it divides the "clean" sound samples into 10-second portions, later it normalizes the amplitude of these samples, and finally converts them into spectrogram images for the next notebook, the model's notebook, to later model accordingly.
 
 3. **Model_Training_and_Evaluation.ipynb**
    - This notebook contains the implementation of our machine learning model, analysis of the results, and the conclusions drawn from our study.
