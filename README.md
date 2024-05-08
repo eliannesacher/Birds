@@ -32,12 +32,45 @@ This repository contains several Jupyter notebooks that document our project wor
 4. **Transfer_Learning_with_WAV2VEC2.0.ipynb** (Optional)
    - An exploration of transfer learning using the WAV2VEC2.0 model. This was not used in the final project as our primary model achieved satisfactory performance and the processing time with WAV2VEC2.0 was significantly higher.
 
-## **Usage**
+## **Libraries Used**
 
-To replicate our analysis or explore the notebooks:
-- Clone this repository to your local machine or open it in a Jupyter notebook environment.
-- Ensure all dependencies are installed by running `pip install -r requirements.txt`.
-- Follow the notebooks in the order listed for a comprehensive understanding of the project workflow.
+Here’s a comprehensive explanation of each library used in the provided scripts/notebooks:
+
+1. **requests**: A Python library used for making HTTP requests to fetch data from the web.
+2. **zipfile**: Provides tools to create, read, write, append, and list ZIP files.
+3. **io**: Offers interfaces to stream handling, often used for managing binary data read from a network or files.
+4. **os**: A module for interacting with the operating system, handling file system operations, and manipulating paths.
+5. **pickle**: Implements binary protocols for serializing and de-serializing Python object structures.
+6. **seaborn** (sns): A data visualization library based on matplotlib for creating attractive statistical graphics.
+7. **matplotlib.pyplot** (plt): Functions that make matplotlib work like MATLAB, useful for creating figures and plots.
+8. **pandas** (pd): Provides high-performance data structures and tools for data analysis.
+9. **numpy** (np): Essential for scientific computing, supporting large, multi-dimensional arrays and matrices.
+10. **sys**: Accesses variables maintained by the interpreter and functions that interact with the interpreter.
+11. **scipy** (sp): Used for scientific and technical computing.
+12. **sklearn**: Features various algorithms for machine learning, including classification, regression, and clustering.
+13. **tensorflow** (tf): An open-source platform for machine learning, facilitating model building and training.
+14. **keras**: A high-level neural networks API running on top of TensorFlow, enabling fast experimentation.
+15. **PIL.Image**: Enhances Python with image processing capabilities, supporting extensive file formats and operations.
+16. **warnings**: Manages warning messages in Python, allowing suppression of specific categories of warnings.
+17. **torch** (PyTorch): An open-source library for machine learning, used in applications like computer vision and NLP.
+18. **torchaudio**: Provides tools for audio processing within the PyTorch framework.
+19. **soundfile** (sf): Functions for reading and writing sound files, supporting various formats.
+20. **Resample** (from torchaudio.transforms): Used to resample waveform signals.
+21. **DataLoader, TensorDataset, WeightedRandomSampler** (from torch.utils.data): Tools for loading datasets with various options for batching and sampling.
+22. **transformers** (from huggingface): Offers pre-trained models for tasks like text classification and summarization, which can be fine-tuned.
+23. **AutoFeatureExtractor, AutoModelForAudioClassification, Wav2Vec2Processor** (from transformers): Facilitates audio processing and classification using pre-trained models.
+24. **evaluate**: Provides evaluation metrics and benchmarking for machine learning models.
+25. **tqdm**: Displays progress bars for loops, enhancing the visibility of process execution in command line.
+26. **gc** (Garbage collection): Interfaces with Python's garbage collector for manual memory management.
+27. **re** (Regular expressions): For string searching and manipulation using pattern matching.
+28. **compute_class_weight** (from sklearn.utils): Calculates class weights for imbalanced datasets in machine learning.
+29. **concatenate_datasets, Dataset, load_dataset, ClassLabel, load_from_disk** (from datasets): Functions for loading and manipulating datasets efficiently.
+30. **nn** (from torch): Provides components to build neural networks within PyTorch.
+31. **itertools**: Offers a collection of tools for creating iterators for efficient looping.
+32. **shutil**: High-level file operations, particularly useful for copying and removing directories.
+33. **librosa**: A library for music and audio analysis, providing the necessary tools for music information retrieval.
+34. **accuracy_score, roc_auc_score, confusion_matrix, classification_report, f1_score** (from sklearn.metrics): Measures various aspects of classification model performance.
+
 
 ## **Contributions**
 
