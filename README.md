@@ -22,8 +22,9 @@ This repository contains several Jupyter notebooks that document our project wor
 1. **EDA_and_Basic_Analysis.ipynb**
    - This notebook includes exploratory data analysis and basic statistical analysis of the bird sound dataset.
 
-2. **Preprocessing_on_VM.ipynb**
-   - Conducted on a server/VM for enhanced memory and compute power, this notebook details the preprocessing steps and the downloading of audio files for the top 10 most common bird species.
+2. **Preprocessing_on_VM.py**
+   - Conducted on a server/VM for enhanced memory and compute power, this script details the preprocessing steps and the downloading of audio files for the top 10 most common bird species.
+   - This script downloads the top species "call" type mp3 data from our dataset, rids the samples of silent/noise to only contain actual information (in this case bird sounds), then it divides the "clean" sound samples into 10-second portions, normalizes the amplitude of these samples, and finally converts them into a spectrogram for the model notebook to later model accordingly.
 
 3. **Model_Training_and_Evaluation.ipynb**
    - This notebook contains the implementation of our machine learning model, analysis of the results, and the conclusions drawn from our study.
