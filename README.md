@@ -29,8 +29,21 @@ This repository contains several Jupyter notebooks that document our project wor
 3. **Model_Training_and_Evaluation.ipynb**
    - This notebook contains the implementation of our machine learning model, analysis of the results, and the conclusions drawn from our study.
 
-4. **Transfer_Learning_Model.ipynb** (Optional)
+4. **Transfer_Learning_Model.ipynb**
    - An exploration of transfer learning using the WAV2VEC2.0 model. This was not used in the final project as our primary model achieved satisfactory performance and the processing time with WAV2VEC2.0 was significantly higher.
+  
+## **Conclusion**
+
+Our project has culminated in the development of two distinct yet effective machine learning models designed to classify bird sounds. The first model, built from cleaned audio data, achieves an accuracy of approximately 80%. Notably, it stands out for its efficiency, requiring only about 20 minutes to run. This makes it highly suitable for scenarios where quick processing is prioritized. Our second model, which employs transfer learning techniques, shows a higher accuracy of 85%. However, the greater computational demand of this model—requiring several hours to train—makes it less feasible for regular use with the current hardware at our disposal.
+
+Despite the higher accuracy of the transfer learning model, we prefer the first model due to its rapid processing time and considerable accuracy. This preference underscores our project's goal to develop a practical tool that balances performance with operational efficiency. Ideally, with access to more powerful computing resources, we might favor the transfer learning approach for all our training to capitalize on its higher accuracy.
+
+Additionally, we made a conscious decision to exclude geographical tags from our data inputs. While incorporating geo-tags could potentially increase the accuracy of our models by providing additional contextual clues, we opted against this to challenge ourselves further and to create a model that relies solely on acoustic characteristics. This approach was intended to ensure the model's applicability in a broader range of scenarios, making it a robust tool regardless of geographical data availability.
+
+Moreover, in this project, a significant challenge we encountered was the process of downloading and managing the audio samples, which proved to be as critical as the modeling itself. Due to memory and storage constraints on our personal computing resources, we were limited in the number of audio samples we could handle simultaneously. This limitation not only restricted the diversity of the dataset but also the scale at which we could train our models. More extensive storage capabilities would have allowed us to retain a greater variety of bird calls and ambient sound conditions, thereby enabling the development of a more comprehensive and robust model. Expanding our dataset with more samples from a wider array of species and recording conditions could potentially improve the model's accuracy and generalization ability. Thus, with increased storage capacity, future efforts could focus on enhancing the model's sophistication and breadth, potentially leading to even more impressive classification performance.
+
+In summary, our project not only achieved high accuracy in bird sound classification but also highlighted important trade-offs between model performance and computational efficiency. Future enhancements could explore the integration of more advanced computing infrastructures or reconsider the inclusion of geo-tags, depending on the specific goals and resources available.
+
 
 ## **Libraries Used**
 
