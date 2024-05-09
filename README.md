@@ -29,7 +29,7 @@ This repository contains several Jupyter notebooks that document our project wor
 3. **Model_Training_and_Evaluation.ipynb**
    - This notebook contains the implementation of our machine learning model, analysis of the results, and the conclusions drawn from our study.
 
-4. **Transfer_Learning_with_WAV2VEC2.0.ipynb** (Optional)
+4. **Transfer_Learning_Model.ipynb** (Optional)
    - An exploration of transfer learning using the WAV2VEC2.0 model. This was not used in the final project as our primary model achieved satisfactory performance and the processing time with WAV2VEC2.0 was significantly higher.
 
 ## **Libraries Used**
